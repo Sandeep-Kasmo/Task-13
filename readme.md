@@ -65,7 +65,7 @@ SQL Table Structure
         Phone BIGINT
     );
 
->> How to Run the Project
+How to Run the Project
 
 1.Install Dependencies
     pip install fastapi uvicorn pyodbc pandas
@@ -137,5 +137,6 @@ Thunder Client (VS Code)
 Developed by Sandeep Reddy
 
 FastAPI + SQL Server CRUD Learning Project
+
 
 
