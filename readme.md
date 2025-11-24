@@ -68,10 +68,10 @@ SQL Table Structure
 ▶️ How to Run the Project
 
 1️⃣ Install Dependencies
-    pip install fastapi uvicorn pyodbc pandas
+        pip install fastapi uvicorn pyodbc pandas
 
 2️⃣ Start the Server
-    python main.py
+        python main.py
 
 
 Or using uvicorn manually:
@@ -137,3 +137,4 @@ Thunder Client (VS Code)
 Developed by Sandeep Reddy
 
 FastAPI + SQL Server CRUD Learning Project
+
