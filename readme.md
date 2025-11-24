@@ -65,20 +65,20 @@ SQL Table Structure
         Phone BIGINT
     );
 
-▶️ How to Run the Project
+>> How to Run the Project
 
-1️⃣ Install Dependencies
-        pip install fastapi uvicorn pyodbc pandas
+1.Install Dependencies
+    pip install fastapi uvicorn pyodbc pandas
 
-2️⃣ Start the Server
-        python main.py
+2.Start the Server
+     python main.py
 
 
 Or using uvicorn manually:
 
-uvicorn main:app --reload
+    uvicorn main:app --reload
 
-3️⃣ Access the API Documentation
+3️.Access the API Documentation
 
 FastAPI provides automatic Swagger documentation:
 
@@ -137,4 +137,5 @@ Thunder Client (VS Code)
 Developed by Sandeep Reddy
 
 FastAPI + SQL Server CRUD Learning Project
+
 
