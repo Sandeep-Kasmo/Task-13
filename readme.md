@@ -36,8 +36,11 @@ Pydantic
 SQL Server
 
 📂 Project Structure
+
 project/
+
 │── main.py
+
 │── README.md
 
 ⚙️ Prerequisites
@@ -55,19 +58,20 @@ A database named PythonLearningDB
 A table named Employee
 
 SQL Table Structure
-CREATE TABLE Employee (
-    EmpId INT PRIMARY KEY,
-    Name VARCHAR(100),
-    Address VARCHAR(255),
-    Phone BIGINT
-);
+    CREATE TABLE Employee (
+        EmpId INT PRIMARY KEY,
+        Name VARCHAR(100),
+        Address VARCHAR(255),
+        Phone BIGINT
+    );
 
 ▶️ How to Run the Project
+
 1️⃣ Install Dependencies
-pip install fastapi uvicorn pyodbc pandas
+    pip install fastapi uvicorn pyodbc pandas
 
 2️⃣ Start the Server
-python main.py
+    python main.py
 
 
 Or using uvicorn manually:
@@ -83,39 +87,40 @@ FastAPI provides automatic Swagger documentation:
 You can test all endpoints from there.
 
 📌 API Endpoints
+
 1. Get all users
-GET /users/
+    GET /users/
 
 2. Get a user by ID
-GET /users/{id}
+    GET /users/{id}
 
 3. Create a new user
-POST /users/
-
-Request Body
-{
-  "empId": 1,
-  "name": "John",
-  "address": "Hyderabad",
-  "phone": 9876543210
-}
+    POST /users/
+    
+    Request Body
+    {
+      "empId": 1,
+      "name": "John",
+      "address": "Hyderabad",
+      "phone": 9876543210
+    }
 
 4. Update an existing user
-PUT /users/{id}
+    PUT /users/{id}
 
 5. Delete a user
-DELETE /users/{id}
+    DELETE /users/{id}
 
 🔌 Database Connection
 
 The connection uses Windows Authentication:
 
-conn = pyodbc.connect(
-    'Driver={ODBC Driver 17 for SQL Server};'
-    r'server=SANDY\SQLEXPRESS;'
-    'database=PythonLearningDB;'
-    'Trusted_connection=yes;'
-)
+    conn = pyodbc.connect(
+        'Driver={ODBC Driver 17 for SQL Server};'
+        r'server=SANDY\SQLEXPRESS;'
+        'database=PythonLearningDB;'
+        'Trusted_connection=yes;'
+    )
 
 🧪 Testing Tools
 
@@ -130,4 +135,5 @@ Thunder Client (VS Code)
 🙌 Author
 
 Developed by Sandeep Reddy
+
 FastAPI + SQL Server CRUD Learning Project
