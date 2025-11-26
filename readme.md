@@ -69,9 +69,11 @@ SQL Table Structure
 How to Run the Project
 
 1.Install Dependencies
+
         pip install fastapi uvicorn pyodbc pandas
 
 2.Start the Server
+
          python main.py
     
 
@@ -90,15 +92,19 @@ You can test all endpoints from there.
 📌 API Endpoints
 
 1. Get all users
+
         GET /users/
 
 2. Get a user by ID
+ 
         GET /users/{id}
 
 3. Create a new user
+
         POST /users/
     
     Request Body
+   
             {
               "empId": 1,
               "name": "John",
@@ -107,9 +113,11 @@ You can test all endpoints from there.
             }
 
 4. Update an existing user
+
         PUT /users/{id}
 
 5. Delete a user
+
         DELETE /users/{id}
 
 🔌 Database Connection
@@ -138,6 +146,7 @@ Thunder Client (VS Code)
 Developed by Sandeep Reddy
 
 FastAPI + SQL Server CRUD Learning Project
+
 
 
 
