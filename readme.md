@@ -125,10 +125,10 @@ You can test all endpoints from there.
 The connection uses Windows Authentication:
         
                 conn=pyodbc.connect(f"""
-        Driver={{{driver}}};
-        SERVER={server};
-        DATABASE={database};
-        Trusted_Connection=Yes;
+                        Driver={{{driver}}};
+                        SERVER={server};
+                        DATABASE={database};
+                        Trusted_Connection=Yes;
                 """)
 
 🧪 Testing Tools
@@ -146,6 +146,7 @@ Thunder Client (VS Code)
 Developed by Sandeep Reddy
 
 FastAPI + SQL Server CRUD Learning Project
+
 
 
 
