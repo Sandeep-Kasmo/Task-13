@@ -58,6 +58,7 @@ A database named PythonLearningDB
 A table named Employee
 
 SQL Table Structure
+
             CREATE TABLE Employee (
                 EmpId INT PRIMARY KEY,
                 Name VARCHAR(100),
@@ -137,6 +138,7 @@ Thunder Client (VS Code)
 Developed by Sandeep Reddy
 
 FastAPI + SQL Server CRUD Learning Project
+
 
 
 
